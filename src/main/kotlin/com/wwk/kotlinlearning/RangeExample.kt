@@ -20,6 +20,7 @@ fun main(args: Array<String>) {
     println(range.contains(50)) // 与println(50 in range)等价
     println(50 in range) // 与println(range.contains(50))等价
 
+    // 遍历区间
     for (i in rangeExclusive) {
         print("$i, ")
     }
